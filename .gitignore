@@ -1,0 +1,25 @@
+## Build and Visual Studio files
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.userossc
+*.suo
+
+## Sensitive Settings (Ignore appsettings)
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+**/appsettings.json
+**/appsettings.*.json
+
+## Packages
+*.nupkg
+packages/
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+[Dd]esktop.ini
